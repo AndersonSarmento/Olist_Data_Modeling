@@ -1,6 +1,6 @@
-import mysql.connector
-from mysql.connector import Error
-from dotenv import load_dotenv
+import mysql.connector # type: ignore
+from mysql.connector import Error # type: ignore
+from dotenv import load_dotenv # type: ignore
 import os
 
 # Carregar variáveis de ambiente do arquivo .env

@@ -13,8 +13,16 @@ if __name__ == "__main__":
             exit()
 
         # Caminho do arquivo CSV
-        path_customers = "/home/ander/Documentos/projetos/Olist_Data_Modeling_ETL_Process/data/raw/olist_customers_dataset.csv"
-        
+        path_customers = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_customers_dataset.csv"
+        path_olist_geolocation = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_geolocation_dataset.csv"
+        path_olist_order_items = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_order_items_dataset.csv"
+        path_olist_order_payments = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_order_payments_dataset.csv"
+        path_olist_order_reviews = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_order_reviews_dataset.csv"
+        path_olist_orders = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_orders_dataset.csv"
+        path_olist_products = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_products_dataset.csv"
+        path_olist_sellers = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/olist_sellers_dataset.csv"
+        path_product_category_name_translation = "/home/ander/Documentos/projetos/Olist_Data_Modeling/data/raw/product_category_name_translation.csv"
+
         # Lendo o arquivo CSV
         df_customers = pd.read_csv(path_customers)
         
